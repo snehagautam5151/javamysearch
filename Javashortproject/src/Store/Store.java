@@ -16,8 +16,8 @@ public class Store {
 		  
 		  // main method
 		  public static void main(String[] args) {
-		    Store lemonadeStand = new Store("lemonade", 42, .99);
-		    Store cookieShop = new Store("cookies", 12, 3.75);
+		    Store lemonadeStand = new Store("lemonade", 23, .99);
+		    Store cookieShop = new Store("cookies", 6, 3.75);
 		    
 		    System.out.println("Our first shop sells " + lemonadeStand.productType + " at " + lemonadeStand.inventoryPrice + " per unit.");
 		    
